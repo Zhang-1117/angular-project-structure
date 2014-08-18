@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Prima</title>
+</head>
+<body>
+<header ng-include="'core/header.html'" class=""></header>
+<nav ng-include="'core/left.html'" class="left"></nav>
+<section class="container">
+	<section ui-view></section>
+</section>
+
+<!-- vendor -->
+<script type="text/javascript" src="../lib/angular/angular.min.js"></script>
+<script type="text/javascript" src="../lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="../lib/plugin/i18n.js"></script>
+<script type="text/javascript" src="../lib/plugin/alert.js"></script>
+<!-- main -->
+<script type="text/javascript" src="../modules/config.js"></script>
+<script type="text/javascript" src="../modules/application.js"></script>
+<!-- core -->
+<script type="text/javascript" src="../modules/core/core.module.js"></script>
+<script type="text/javascript" src="../modules/core/config/core.routes.js"></script>
+
+</body>
+</html>
