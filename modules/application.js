@@ -39,8 +39,6 @@ angular.module(ApplicationConfiguration.applicationModuleName, ApplicationConfig
                                     break;
                                     // other Error
                                 default:
-                                    console.log(rejection.status);
-                                    console.log(i18n.get('error.message'));
                                     alertService.add('danger', i18n.get('error.message'));
                             }
 

@@ -7,7 +7,10 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 		$stateProvider.
 		state('home', {
 			url: '/',
-			templateUrl: 'core/home.html'
+			templateUrl: 'core/home.html',
+			data: {
+				displayName: '首页'
+			}
 		});
 	}
 ]);
