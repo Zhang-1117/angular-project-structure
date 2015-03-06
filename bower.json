@@ -1,7 +1,7 @@
 {
-	"name": "prima",
+	"name": "appname",
 	"version": "1.0",
-	"description": "阳光互联管理员控制面板",
+	"description": "angular project seed",
 	"dependencies": {
 		"bootstrap": "~3",
 		"angular": "~1.2",

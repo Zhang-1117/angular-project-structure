@@ -2,8 +2,8 @@
 
 var ApplicationConfiguration = (function(){
 	// 应用程序名和依赖
-	var applicationModuleName = 'prima';
-	var applicationModuleVendorDependencies = ['ui.router', 'i18n', 'alert', 'yo.breadcrumbs'];
+	var applicationModuleName = 'appname';
+	var applicationModuleVendorDependencies = ['ui.router', 'i18n', 'alert', 'z.breadcrumbs'];
 
 	// 添加新模块
 	var registerModule = function(moduleName, dependencies) {
